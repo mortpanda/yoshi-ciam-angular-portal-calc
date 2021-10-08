@@ -9,8 +9,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-import { ComponentsModule } from './components/components.module';
-//import { ExamplesModule } from './examples/examples.module';
+
 import { OktaSDKAuthService } from 'app/shared/okta/okta-auth-service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
@@ -65,8 +64,7 @@ import { WhoisoktaComponent } from './whoisokta/whoisokta.component';
     NgbModule,
     FormsModule,
     RouterModule,
-    ComponentsModule,
-    //ExamplesModule,
+  
     AppRoutingModule,
     BrowserAnimationsModule,
     
